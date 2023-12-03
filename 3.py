@@ -23,7 +23,6 @@ ax1.set_xlabel('Месяц')
 ax1.set_ylabel('Количество пассажиров')
 ax1.grid(True)
 
-
 for year in yearly_passengers:
     ax2.hist(yearly_passengers[year], bins=20, alpha=0.5, label=year)
 
